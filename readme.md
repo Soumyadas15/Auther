@@ -88,11 +88,6 @@ npm run dev
 
 Visit http://localhost:3000 on your browser to see it running.
 
-
-### APIs:
-
-To get extensive details of the apis, visit http://localhost:8080/api-docs after running the backend server
-
 ### Authentication
 
 When a user logs in via the `/api/auth/login` endpoint, a JWT token is returned. This token is then stored in cookies on the frontend. For every subsequent request, the JWT token is retrieved from the cookies and sent along with the request.
